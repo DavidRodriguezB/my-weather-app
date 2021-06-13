@@ -4,7 +4,7 @@ An application used to get weather forecast from Open Weather API and https://gi
 
 ## Project Status
 
-This project is currently in development. Users can filter some prefixed cities and se their weekly and hourly forecast.
+This project is currently in development. Users can filter some prefixed cities and see their weekly and hourly forecast.
 
 
 ## Installation and Setup Instructions
