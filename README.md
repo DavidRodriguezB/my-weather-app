@@ -1,9 +1,5 @@
 # my-weather-app
 
-#### Example:
-
-TweetWorld 
-
 An application used to get weather forecast from Open Weather API and https://github.com/DavidRodriguezB/api-weather in node.js.
 
 ## Project Status
