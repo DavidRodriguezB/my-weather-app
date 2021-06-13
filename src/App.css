@@ -1,0 +1,179 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.slider {
+  width: 72%;
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-top: 15px;
+  margin: 0 auto;
+}
+
+.slide {
+  width: 150px;
+  flex-shrink: 0;
+  height: 140px;
+  margin: 10px;
+  box-shadow: rgb(50 50 93 / 25%) 0px 6px 12px -2px, rgb(0 0 0 / 30%) 0px 3px 7px -3px;
+}
+
+.Clouds {
+  background-image: url(images/cloudy.svg);
+  width: 57px;
+  height: 57px;
+  display: block;
+}
+
+.Drizzle{
+  background-image: url(images/rainy-1.svg);
+  width: 57px;
+  height: 57px;
+  display: block;
+}
+
+.Thunderstorm{
+  background-image: url(images/thunder.svg);
+  width: 57px;
+  height: 57px;
+  display: block;
+}
+
+.Snow{
+  background-image: url(images/snowy-1.svg);
+  width: 57px;
+  height: 57px;
+  display: block;
+}
+
+.Night{
+  background-image: url(images/night.svg);
+  width: 57px;
+  height: 57px;
+  display: block;
+}
+
+.Rain{
+  background-image: url(images/rainy-6.svg);
+  width: 57px;
+  height: 57px;
+  display: block;
+}
+
+.Clear{
+  background-image: url(images/day.svg);
+  width: 57px;
+  height: 57px;
+  display: block;
+}
+
+.iconWrapper{
+  height: 55px;
+  color: #555;
+  display: table;
+  margin: 0 auto;
+}
+
+.ui.card {
+  float: left;
+  margin: 0 !important;
+  width: 12% !important;
+  min-height: 200px !important;
+}
+
+.week{
+  display: inline;
+  display: table;
+  margin: 0 auto;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.day{
+  margin-top: 15px;
+}
+
+.label-city{
+  float: left;
+  font-size: large;
+  margin-right: 5px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .ui.card {
+    min-height: 150px !important;
+    width: 12.5% !important;
+    margin: 0;
+  }
+  .slider{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .ui.card {
+    min-height: 150px !important;
+    width: 50% !important;
+    height: 20px !important;
+  }
+  .slider{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .ui.card {
+    min-height: 150px !important;
+    width: 100% !important;
+    height: 20px !important;
+  }
+  .slider{
+    width: 100%;
+  }
+  .label-city{
+    float: none;
+    font-size: large;
+    margin-right: 5px;
+    margin-top: 7px;
+  }
+}
+
+
+
